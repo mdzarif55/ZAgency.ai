@@ -20,7 +20,7 @@ const Navbar = ({ theme, setTheme }) => {
         <a onClick={()=>setSidebarOpen(false)} href="contact-us" className='sm:hover:border-b'>Contact Us</a>
       </div>
 
-      <div className='flex items-center gap-2 sm:gap-4'>
+      <div className='flex items-center  gap-2 sm:gap-4'>
 
         <img src={theme==='dark' ? assets.menu_icon_dark : assets.menu_icon} alt=""  onClick={()=>setSidebarOpen(true)} className='w-8 sm:hidden'/>
 
